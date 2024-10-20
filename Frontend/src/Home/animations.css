@@ -1,0 +1,29 @@
+/* animations.css */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInLong {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Animation for faster fade-in effect */
+  .animate-fade-in {
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  /* Animation for a longer fade-in effect for paragraphs */
+  .animate-fade-in-long {
+    animation: fadeInLong 4s ease-in-out forwards;
+  }
+  
