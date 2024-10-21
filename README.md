@@ -1,4 +1,4 @@
-﻿# E-waste-mangement website
+﻿# E-waste-management website
 
 E-waste management platform is designed to facilitate the responsible disposal and recycling of electronic waste. Users can easily log in to create accounts, post items they wish to give away, and find nearby recycling centers that accept e-waste.
 
