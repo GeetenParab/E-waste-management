@@ -33,3 +33,18 @@ app.listen(5000,()=>{
     connectToMongoDb();
     console.log(`server is running on port ${PORT}`)
 });
+
+
+
+
+// http://localhost:5000/api/auth/login (post request)
+// http://localhost:5000/api/auth/signup (post request)
+// http://localhost:5000/api/auth/logout (post request)
+// http://localhost:5000/api/waste/disposal     (post request)
+// http://localhost:5000/api/waste/allRequest  (get request)
+// http://localhost:5000/api/admin/login      (post request)
+// http://localhost:5000/api/admin/dashboard    (get request)
+// http://localhost:5000/api/admin/update-status/:id?id=66fd03d516a95cb872632b98 (put request)
+
+
+
