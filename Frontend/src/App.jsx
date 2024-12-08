@@ -11,12 +11,13 @@ import { useAuthContext } from "./SignIn/AuthContext.jsx";
 import Profile from "./Header/Profile.jsx";
 import EForm from "./EForm/Eform.jsx";
 import AdminLogin from "./Admin/AdminLogin.jsx";
-import AdminDashboard from "./Admin/AdminDashBoard.jsx";
+
 import { useAdminContext } from "./Admin/AdminContext.jsx";
 import Unauthorized from "./Admin/Unauthorized.jsx";
 import { Admin } from "./Admin/Admin.jsx";
 import WasteRecyclerMap from "./EForm/WasteRecyclerMap.jsx";
 import EducationPage from "./Home/EducationPage.jsx";
+import AdminDashboard from './Admin/AdminDashboard.jsx';
 
 function App() {
   const { authUser } = useAuthContext();
