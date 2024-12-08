@@ -1,5 +1,6 @@
 import Ewaste from '../Models/Ewaste.model.js';
-import { uploadonCloudinary } from "../utils/Cloudinary.js";
+import { uploadonCloudinary } from '../utils/cloudinary.js';
+
 
 export const pickupRequest = async (req, res) => {
     try {
